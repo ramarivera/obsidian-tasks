@@ -162,6 +162,9 @@
   "Test Data/embed_link_in_task.md": {
     "Test Data/empty_yaml.md": 1
   },
+  "Test Data/embedded_blocks_issue_3505.md": {
+    "Test Data/embedded_blocks_issue_3505.md": 2
+  },
   "Test Data/empty_yaml.md": {},
   "Test Data/example_kanban.md": {},
   "Test Data/inheritance_1parent1child.md": {},
