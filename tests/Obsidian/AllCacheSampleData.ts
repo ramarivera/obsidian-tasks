@@ -7,17 +7,17 @@ export type MockDataName =
     | 'all_link_types'
     | 'blockquote'
     | 'callout'
-    | 'callouts_nested_issue_2890_labelled'
-    | 'callouts_nested_issue_2890_unlabelled'
     | 'callout_custom'
     | 'callout_labelled'
+    | 'callouts_nested_issue_2890_labelled'
+    | 'callouts_nested_issue_2890_unlabelled'
     | 'code_block_in_task'
     | 'comments_html_style'
     | 'comments_markdown_style'
     | 'docs_sample_for_explain_query_file_defaults'
     | 'docs_sample_for_task_properties_reference'
-    | 'embedded_blocks_issue_3505'
     | 'embed_link_in_task'
+    | 'embedded_blocks_issue_3505'
     | 'empty_yaml'
     | 'example_kanban'
     | 'inheritance_1parent1child'
@@ -43,7 +43,6 @@ export type MockDataName =
     | 'inheritance_task_mixed_children'
     | 'internal_heading_links'
     | 'jason_properties'
-    | 'links_everywhere'
     | 'link_in_file_body'
     | 'link_in_file_body_with_custom_display_text'
     | 'link_in_heading'
@@ -53,13 +52,14 @@ export type MockDataName =
     | 'link_in_task_wikilink_different_case'
     | 'link_in_yaml'
     | 'link_is_broken'
+    | 'links_everywhere'
     | 'list_statuses'
     | 'list_styles'
-    | 'multiple_headings'
     | 'multi_line_task_and_list_item'
-    | 'non_tasks'
+    | 'multiple_headings'
     | 'no_heading'
     | 'no_yaml'
+    | 'non_tasks'
     | 'numbered_list_items_standard'
     | 'numbered_list_items_with_paren'
     | 'numbered_tasks_issue_3481'
@@ -112,17 +112,17 @@ export const AllMockDataNames: MockDataName[] = [
     'all_link_types',
     'blockquote',
     'callout',
-    'callouts_nested_issue_2890_labelled',
-    'callouts_nested_issue_2890_unlabelled',
     'callout_custom',
     'callout_labelled',
+    'callouts_nested_issue_2890_labelled',
+    'callouts_nested_issue_2890_unlabelled',
     'code_block_in_task',
     'comments_html_style',
     'comments_markdown_style',
     'docs_sample_for_explain_query_file_defaults',
     'docs_sample_for_task_properties_reference',
-    'embedded_blocks_issue_3505',
     'embed_link_in_task',
+    'embedded_blocks_issue_3505',
     'empty_yaml',
     'example_kanban',
     'inheritance_1parent1child',
@@ -148,7 +148,6 @@ export const AllMockDataNames: MockDataName[] = [
     'inheritance_task_mixed_children',
     'internal_heading_links',
     'jason_properties',
-    'links_everywhere',
     'link_in_file_body',
     'link_in_file_body_with_custom_display_text',
     'link_in_heading',
@@ -158,13 +157,14 @@ export const AllMockDataNames: MockDataName[] = [
     'link_in_task_wikilink_different_case',
     'link_in_yaml',
     'link_is_broken',
+    'links_everywhere',
     'list_statuses',
     'list_styles',
-    'multiple_headings',
     'multi_line_task_and_list_item',
-    'non_tasks',
+    'multiple_headings',
     'no_heading',
     'no_yaml',
+    'non_tasks',
     'numbered_list_items_standard',
     'numbered_list_items_with_paren',
     'numbered_tasks_issue_3481',

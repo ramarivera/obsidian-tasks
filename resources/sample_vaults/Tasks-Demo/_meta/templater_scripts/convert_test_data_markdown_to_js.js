@@ -7,7 +7,7 @@ const metadataCache = app.metadataCache;
 async function getMarkdownFiles() {
     // Get all files from Test Data/ directory
     const { files } = await vault.adapter.list('Test Data/');
-    return files.filter((file) => file.endsWith('.md'));
+    return files.sort((a, b) => a.localeCompare(b, 'en-GB')).filter((file) => file.endsWith('.md'));
 }
 
 function getBasename(filePath) {
