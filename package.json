@@ -3,6 +3,7 @@
   "version": "7.22.0",
   "description": "Task management for the Obsidian knowledge base",
   "main": "main.js",
+  "packageManager": "yarn@1.22.22",
   "engines": {
     "node": ">=18.0.0"
   },

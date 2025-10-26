@@ -102,6 +102,11 @@ ${toMarkdown(allTasks)}
         const allTasks = readTasksFromSimulatedFile('inheritance_non_task_child');
         await verifyRenderedTasksHTML(allTasks, showTree);
     });
+
+    it('embedded blocks issue 3505', async () => {
+        const allTasks = readTasksFromSimulatedFile('embedded_blocks_issue_3505');
+        await verifyRenderedTasksHTML(allTasks, showTree);
+    });
 });
 
 describe('QueryResultsRenderer - responding to file edits', () => {
