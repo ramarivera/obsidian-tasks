@@ -16,6 +16,21 @@
           }
         }
       },
+      "task-with-codeblock-no-global-filter": {
+        "id": "task-with-codeblock-no-global-filter",
+        "position": {
+          "end": {
+            "col": 41,
+            "line": 13,
+            "offset": 354
+          },
+          "start": {
+            "col": 0,
+            "line": 9,
+            "offset": 229
+          }
+        }
+      },
       "task-without-codeblock": {
         "id": "task-without-codeblock",
         "position": {
@@ -40,13 +55,13 @@
         "position": {
           "end": {
             "col": 52,
-            "line": 11,
-            "offset": 292
+            "line": 16,
+            "offset": 419
           },
           "start": {
             "col": 0,
-            "line": 11,
-            "offset": 240
+            "line": 16,
+            "offset": 367
           }
         }
       },
@@ -57,13 +72,30 @@
         "position": {
           "end": {
             "col": 55,
-            "line": 13,
-            "offset": 349
+            "line": 18,
+            "offset": 476
           },
           "start": {
             "col": 0,
-            "line": 13,
-            "offset": 294
+            "line": 18,
+            "offset": 421
+          }
+        }
+      },
+      {
+        "displayText": "embedded_blocks_issue_3505 > ^task-with-codeblock-no-global-filter",
+        "link": "embedded_blocks_issue_3505#^task-with-codeblock-no-global-filter",
+        "original": "![[embedded_blocks_issue_3505#^task-with-codeblock-no-global-filter]]",
+        "position": {
+          "end": {
+            "col": 69,
+            "line": 20,
+            "offset": 547
+          },
+          "start": {
+            "col": 0,
+            "line": 20,
+            "offset": 478
           }
         }
       }
@@ -107,13 +139,29 @@
         "position": {
           "end": {
             "col": 9,
-            "line": 10,
-            "offset": 239
+            "line": 15,
+            "offset": 366
           },
           "start": {
             "col": 0,
-            "line": 10,
-            "offset": 230
+            "line": 15,
+            "offset": 357
+          }
+        }
+      },
+      {
+        "heading": "Query view",
+        "level": 2,
+        "position": {
+          "end": {
+            "col": 13,
+            "line": 22,
+            "offset": 562
+          },
+          "start": {
+            "col": 0,
+            "line": 22,
+            "offset": 549
           }
         }
       }
@@ -149,6 +197,23 @@
             "col": 0,
             "line": 8,
             "offset": 154
+          }
+        },
+        "task": " "
+      },
+      {
+        "id": "task-with-codeblock-no-global-filter",
+        "parent": -3,
+        "position": {
+          "end": {
+            "col": 41,
+            "line": 13,
+            "offset": 354
+          },
+          "start": {
+            "col": 0,
+            "line": 9,
+            "offset": 229
           }
         },
         "task": " "
@@ -188,9 +253,9 @@
       {
         "position": {
           "end": {
-            "col": 74,
-            "line": 8,
-            "offset": 228
+            "col": 41,
+            "line": 13,
+            "offset": 354
           },
           "start": {
             "col": 0,
@@ -204,13 +269,13 @@
         "position": {
           "end": {
             "col": 9,
-            "line": 10,
-            "offset": 239
+            "line": 15,
+            "offset": 366
           },
           "start": {
             "col": 0,
-            "line": 10,
-            "offset": 230
+            "line": 15,
+            "offset": 357
           }
         },
         "type": "heading"
@@ -219,13 +284,13 @@
         "position": {
           "end": {
             "col": 52,
-            "line": 11,
-            "offset": 292
+            "line": 16,
+            "offset": 419
           },
           "start": {
             "col": 0,
-            "line": 11,
-            "offset": 240
+            "line": 16,
+            "offset": 367
           }
         },
         "type": "paragraph"
@@ -234,16 +299,61 @@
         "position": {
           "end": {
             "col": 55,
-            "line": 13,
-            "offset": 349
+            "line": 18,
+            "offset": 476
           },
           "start": {
             "col": 0,
-            "line": 13,
-            "offset": 294
+            "line": 18,
+            "offset": 421
           }
         },
         "type": "paragraph"
+      },
+      {
+        "position": {
+          "end": {
+            "col": 69,
+            "line": 20,
+            "offset": 547
+          },
+          "start": {
+            "col": 0,
+            "line": 20,
+            "offset": 478
+          }
+        },
+        "type": "paragraph"
+      },
+      {
+        "position": {
+          "end": {
+            "col": 13,
+            "line": 22,
+            "offset": 562
+          },
+          "start": {
+            "col": 0,
+            "line": 22,
+            "offset": 549
+          }
+        },
+        "type": "heading"
+      },
+      {
+        "position": {
+          "end": {
+            "col": 3,
+            "line": 26,
+            "offset": 649
+          },
+          "start": {
+            "col": 0,
+            "line": 23,
+            "offset": 563
+          }
+        },
+        "type": "code"
       }
     ],
     "tags": [
@@ -279,7 +389,7 @@
       }
     ]
   },
-  "fileContents": "# embedded_blocks_issue_3505\n\n## Tasks\n- [ ] #task Task 1 in 'embedded_blocks_issue_3505'\n    ```ts\n    console.log(\"H\")\n    ```\n    ^task-with-codeblock\n- [ ] #task Task 2 in 'embedded_blocks_issue_3505' ^task-without-codeblock\n\n## Embeds\n![[embedded_blocks_issue_3505#^task-with-codeblock]]\n\n![[embedded_blocks_issue_3505#^task-without-codeblock]]\n",
+  "fileContents": "# embedded_blocks_issue_3505\n\n## Tasks\n- [ ] #task Task 1 in 'embedded_blocks_issue_3505'\n    ```ts\n    console.log(\"H\")\n    ```\n    ^task-with-codeblock\n- [ ] #task Task 2 in 'embedded_blocks_issue_3505' ^task-without-codeblock\n- [ ] Task 3 in 'embedded_blocks_issue_3505'\n    ```ts\n    console.log(\"H\")\n    ```\n    ^task-with-codeblock-no-global-filter\n \n## Embeds\n![[embedded_blocks_issue_3505#^task-with-codeblock]]\n\n![[embedded_blocks_issue_3505#^task-without-codeblock]]\n\n![[embedded_blocks_issue_3505#^task-with-codeblock-no-global-filter]]\n\n## Query view\n```tasks\nfileName includes 3505\ngroup by function task.blockLink.replace(\" ^\",\"\") \n```\n",
   "filePath": "Test Data/embedded_blocks_issue_3505.md",
   "getAllTags": [
     "#task",
