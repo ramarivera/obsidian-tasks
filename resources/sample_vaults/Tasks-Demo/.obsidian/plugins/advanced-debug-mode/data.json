@@ -1,0 +1,8 @@
+{
+  "shouldIncludeAsyncLongStackTraces": false,
+  "shouldIncludeInternalStackFrames": true,
+  "shouldIncludeLongStackTraces": true,
+  "shouldIncludeTimedOutTasksDetails": true,
+  "shouldTimeoutLongRunningTasks": false,
+  "stackTraceLimit": 100
+}

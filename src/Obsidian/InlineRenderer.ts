@@ -101,7 +101,7 @@ export class InlineRenderer {
 
             const precedingHeader = null; // We don't need the preceding header for in-line rendering.
             const task = Task.fromLine({
-                line,
+                line: line + 'XYZ',
                 taskLocation: new TaskLocation(
                     new TasksFile(path),
                     lineNumber,
